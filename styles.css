@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 20px;
+  background-color: transparent;
+  width: 100%;
+}
+
+.navbar-brand {
+  margin-right: 100px;
+  font-size: 24px;
+  color: #333;
+}
+
+.navbar-links {
+  list-style-type: none;
+  /* padding-left:-50px; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-right: 40px;
+}
+
+.navbar-links li:last-child {
+  margin-right: 0;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info span {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.additional-info {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.additional-info .info-line {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 410px;
+  margin-right: 410px;
+}
+
+.about-info {
+  display: flex;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.img-div img {
+  width: 40%;
+  height: auto;
+}
+
+.black-wmn-info-div {
+  display: 'flex';
+  justify-content: center;
+  margin-left: 410px;
+  margin-right: 410px;
+  margin-top: 35px;
+}
+
+.black-wmn-info {
+  text-align: center;
+  font-size: 30px;
+  color: grey;
+  padding: 30px;
+}
+
+.black-wmn-info-black {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.relevent-works-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  margin-right: 100px;
+}
+
+.rel-work {
+  font-size: 85px;
+  padding: 0px;
+}
+
+.cv {
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+}
+
+.company {
+  justify-content: left;
+  padding: 5px;
+}
+
+.company-position {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 200px;
+}
+
+.company-work {
+  display: flex;
+  word-wrap: wrap;
+}
+
+.line-sep {
+  width: 70%;
+  height: 1px;
+  background-color: grey;
+  margin-left: 300px;
+}
